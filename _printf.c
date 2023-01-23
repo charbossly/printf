@@ -23,7 +23,7 @@ int _printf(const char *format, ...)
                         if(format[i+1] == 'c')
                         {
                                 write(1, va_arg(list, int *), 1);
-                                i += 2;
+                                i += 1;
                         }
                 }
                 else
